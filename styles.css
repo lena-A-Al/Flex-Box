@@ -1,0 +1,35 @@
+body{
+    font-family: verdana;
+}
+
+nav{
+    background-color:dodgerblue;
+    padding: 2rem 0 2rem 0;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+nav a{
+    color:cornsilk;
+    flex:1;
+}
+
+nav a:first-child{
+    font-size: 2rem;
+}
+
+nav .selected{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+@media (max-width:600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a{
+        padding: 1rem;
+    }
+}
+
